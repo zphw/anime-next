@@ -4,12 +4,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
+    "build:tailwind": "npx tailwindcss-cli@latest build styles/tailwind.css -o styles/index.css",
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/core": "^10.1.1",
+    "@fontsource/ibm-plex-sans": "^4.1.0",
+    "@theme-ui/presets": "^0.3.5",
+    "autoprefixer": "^10.2.3",
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "theme-ui": "^0.3.5"
   }
 }
