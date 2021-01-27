@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Styled } from "theme-ui";
 // import getBrowserLanguage from "../utils/getBrowserLanguage";
 import { renderByStar, renderByDate, getStat } from "../utils/tableRenderer";
+import { Data } from '../data/data';
 
 export default class Table extends React.PureComponent {
     constructor(props) {
@@ -20,19 +21,16 @@ export default class Table extends React.PureComponent {
     }
 
     componentDidMount() {
-        fetch('/data/list.json')
-            .then(response => response.json())
-            .then(result => {
-                const data = result.data;
-                const tableByStar = renderByStar(data);
-                this.setState({
-                    list: data,
-                    tableContent: tableByStar,
-                    tableByStar: tableByStar,
-                    tableByDate: renderByDate(data),
-                    stat: getStat(data)
-                });
-            });
+        const data = Data;
+
+        const tableByStar = renderByStar(data);
+        this.setState({
+            list: data,
+            tableContent: tableByStar,
+            tableByStar: tableByStar,
+            tableByDate: renderByDate(data),
+            stat: getStat(data)
+        });
 
         // setLanguage(getBrowserLanguage());
     }
