@@ -1,8 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
 import React, { useState, useEffect } from "react";
-import { Box, Styled } from "theme-ui";
+import { jsx, Box, Styled } from "theme-ui";
 // import getBrowserLanguage from "../utils/getBrowserLanguage";
 import { renderByStar, renderByDate, getStat } from "../utils/tableRenderer";
 import { Data } from '../data/data';
@@ -11,6 +10,7 @@ export default class Table extends React.PureComponent {
     constructor(props) {
         super(props)
         this.state = {
+            titleWidth: `70%`,
             list: null,
             tableContent: null,
             tableByStar: null,
@@ -61,7 +61,7 @@ export default class Table extends React.PureComponent {
                                     color: `light`,
                                 },
                             }}
-                            onClick={() => this.setState({tableContent: this.state.tableByStar})}
+                            onClick={() => this.setState({titleWidth: `70%`, tableContent: this.state.tableByStar})}
                         >
                             Stars
                         </button>
@@ -85,7 +85,7 @@ export default class Table extends React.PureComponent {
                                     color: `light`,
                                 },
                             }}
-                            onClick={() => this.setState({tableContent: this.state.tableByDate})}
+                            onClick={() => this.setState({titleWidth: `65%`,tableContent: this.state.tableByDate})}
                         >
                             Date
                         </button>
@@ -103,10 +103,10 @@ export default class Table extends React.PureComponent {
                                         <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: `12%` }}>
                                             #
                                         </Styled.th>
-                                        <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: `65%` }}>
+                                        <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: this.state.titleWidth }}>
                                             Title
                                         </Styled.th>
-                                        <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: `23%` }}>
+                                        <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: `auto` }}>
                                             ★
                                         </Styled.th>
                                     </tr>

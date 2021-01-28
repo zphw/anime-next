@@ -1,10 +1,10 @@
 {
   "name": "anime-next",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "yarn run build:tailwind && next build && next export",
     "build:tailwind": "npx tailwindcss-cli@latest build styles/tailwind.css -o styles/index.css",
     "start": "next start"
   },

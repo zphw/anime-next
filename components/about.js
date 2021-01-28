@@ -1,14 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Styled, Box, Flex } from "theme-ui"
-import { Circle, Donut } from "./shapes"
-import { down, upWide } from "../styles/animations"
-import Logo from "./icons/logo"
+import { jsx, Container, Styled, Box, Flex } from "theme-ui";
+import { Circle, Donut } from "./shapes";
+import { down, upWide } from "../styles/animations";
+import Logo from "./icons/logo";
 
 const AboutMe = () => {
 
     return (
-        <section data-name="about-me" sx={{ position: `relative`, py: 6 }}>
+        <section data-name="about-me" sx={{ position: `relative`, py: 4 }}>
             <Container>
                 <div sx={{ maxWidth: `760px` }}>
                     <Styled.h1 as="h2">Criterion</Styled.h1>

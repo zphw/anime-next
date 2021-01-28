@@ -1,7 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Styled } from "theme-ui";
+import { jsx, Styled } from 'theme-ui';
 
 const renderByDate = (data) => {
     const tableBody = [];
