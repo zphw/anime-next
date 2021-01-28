@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import React, { useState, useEffect } from "react";
 import { jsx, Box, Styled } from "theme-ui";
-// import getBrowserLanguage from "../utils/getBrowserLanguage";
-import { renderByStar, renderByDate, getStat } from "../utils/tableRenderer";
+// import getBrowserLanguage from "../utils/get-browser-language";
+import { renderByStar, renderByDate, getStat } from "../utils/table-renderer";
 import { Data } from '../data/data';
 
 export default class Table extends React.PureComponent {

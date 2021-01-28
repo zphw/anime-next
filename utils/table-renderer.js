@@ -64,7 +64,6 @@ const getStat = (data) => {
         if (data.length % 2 === 0) {
             median = (data[data.length / 2 - 1].score + data[data.length / 2].score) / 2;
         } else {
-            console.log(2)
             median = data[(data.length + 1) / 2 - 1].score;
         }
 
