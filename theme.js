@@ -24,7 +24,7 @@ export default merge(tailwind, {
         shadow: tailwind.colors.indigo[2],
         secondary: tailwind.colors.orange[5],
         background: tailwind.colors.gray[1],
-        backgroundThemes: tailwind.colors.white,
+        backgroundThemes: tailwind.colors.gray[1],
         textMuted: `#667488`,
         text: tailwind.colors.gray[8],
         grayDark: tailwind.colors.gray[9],

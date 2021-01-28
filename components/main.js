@@ -9,8 +9,8 @@ const Main = () => {
     return (
         <section data-name="main">
             <div sx={{ backgroundColor: `backgroundThemes`, mt: [3, 4] }}>
-                <Container sx={{ py: 4 }}>
-                    <Box className="w-full lg:w-9/12">
+                <Container sx={{ py: 4, padding: '.75em' }}>
+                    <Box sx={{ mt: [2, 3] }} className="w-full lg:w-9/12">
                         <Table />
                     </Box>
                 </Container>
