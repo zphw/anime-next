@@ -43,15 +43,15 @@ export default merge(tailwind, {
         modes: {
             dark: {
                 primary: tailwind.colors.indigo[5],
-                tableShadow: tailwind.colors.gray[2],
+                tableShadow: `rgba(237, 242, 247, .6)`,
                 shadow: tailwind.colors.indigo[8],
                 background: tailwind.colors.gray[9],
-                backgroundThemes: tailwind.colors.gray[8],
+                backgroundThemes: `#252d38`,
                 textMuted: `#7a889c`,
                 text: tailwind.colors.gray[3],
                 grayDark: tailwind.colors.gray[1],
                 heading: tailwind.colors.gray[2],
-                translationText: `hsla(0,0%,100%,0.64)`,
+                translationText: `hsla(0,0%,100%,0.66)`,
                 dark: tailwind.colors.gray[4],
                 light: tailwind.colors.gray[7],
                 model: {

@@ -98,7 +98,7 @@ export default class Table extends React.PureComponent {
                             <div className="overflow-hidden border-b border-gray-200 sm:rounded-lg"
                             sx={{ variant: 'boxes.table' }}>
                                 <table className="w-full divide-y table-fixed">
-                                    <thead sx={{ backgroundColor: `background` }}>
+                                    <thead sx={{ backgroundColor: `backgroundThemes` }}>
                                     <tr>
                                         <Styled.th scope="col" className="text-left tracking-wider" sx={{ width: `12%` }}>
                                             #
@@ -111,7 +111,7 @@ export default class Table extends React.PureComponent {
                                         </Styled.th>
                                     </tr>
                                     </thead>
-                                    <tbody sx={{ backgroundColor: `background` }} className="divide-y">
+                                    <tbody sx={{ backgroundColor: `backgroundThemes` }} className="divide-y">
                                     {this.state.tableContent}
                                     </tbody>
                                 </table>

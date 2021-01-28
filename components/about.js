@@ -3,12 +3,11 @@
 import { jsx, Container, Styled, Box, Flex } from "theme-ui";
 import { Circle, Donut } from "./shapes";
 import { down, upWide } from "../styles/animations";
-import Logo from "./icons/logo";
 
-const AboutMe = () => {
+const About = () => {
 
     return (
-        <section data-name="about-me" sx={{ position: `relative`, py: 4 }}>
+        <section data-name="about" sx={{ position: `relative`, py: 6 }}>
             <Container>
                 <div sx={{ maxWidth: `760px` }}>
                     <Styled.h1 as="h2">Criterion</Styled.h1>
@@ -44,23 +43,6 @@ const AboutMe = () => {
                 right={[`145px`, `145px`, `375px`]}
                 sx={{ animation: `${upWide} 20s ease-in-out infinite alternate` }}
             />
-            <Logo
-                sx={{
-                    width: [70, 70, 90],
-                    height: [70, 70, 90],
-                    top: `105px`,
-                    right: [`40px`, `40px`, `240px`],
-                    position: `absolute`,
-                    color: `white`,
-                }}
-            />
-            <Circle
-                size={[`100px`, `100px`, `120px`]}
-                color="darkIndigo"
-                top="90px"
-                right={[`25px`, `25px`, `225px`]}
-                sx={{ boxShadow: `0 0 0 30px rgba(90, 103, 216, 0.15)` }}
-            />
             <Donut color="yellow" size="200px" top="-100px" width="30px" left="-50px" sx={{ opacity: 0.5 }} />
             <Donut
                 color="blue"
@@ -74,4 +56,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe
+export default About

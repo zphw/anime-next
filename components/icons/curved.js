@@ -11,7 +11,7 @@ const Curved = ({ className = `` }) => (
         xmlns="http://www.w3.org/2000/svg"
         className={className}
         sx={{
-            color: `background`,
+            color: `backgroundThemes`,
             width: `100%`,
             height: `auto`,
         }}

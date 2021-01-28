@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
-import Main from "../components/main";
 import About from "../components/about";
+import Main from "../components/main";
 
 export default function Index() {
   return (
