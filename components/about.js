@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container, Styled, Box, Flex } from "theme-ui";
-import { Circle, Donut } from "./shapes";
+import { Circle, Donut } from "./figures/shapes";
 import { down, upWide } from "../styles/animations";
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
                         Scoring of anime (exclusive of their derivative or related works) is based on the <strong>personal</strong> assessment of impression, plot, characterization, meaning, and production value.
                     </Styled.p>
                     <ul>
-                        <li>★10: Masterpiece / Especially Meaningful</li>
+                        <li>★10: Masterpiece / Especially meaningful</li>
                         <li>★9: Remarkable</li>
                         <li>★8: Excellent / Recommended</li>
                         <li>★7: Enjoyable</li>

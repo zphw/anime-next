@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn run build:tailwind && next build && next export",
     "build:tailwind": "npx tailwindcss-cli@latest build styles/tailwind.css -o styles/index.css",
+    "build": "yarn run build:tailwind && next build",
+    "export": "yarn run build && next export",
     "start": "next start"
   },
   "dependencies": {

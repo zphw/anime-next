@@ -388,7 +388,7 @@ hr {
 }
 
 /**
- * Undo the `border-style: none` reset that Normalize applies to images so that
+ * Undo the `border-style: none` reset that Normalize applies to figures so that
  * our `border-{width}` utilities have the expected effect.
  *
  * The Normalize reset is unnecessary for us since we default the border-width
@@ -499,7 +499,7 @@ object {
 }
 
 /**
- * Constrain images and videos to the parent width and preserve
+ * Constrain figures and videos to the parent width and preserve
  * their instrinsic aspect ratio.
  *
  * https://github.com/mozdevs/cssremedy/issues/14

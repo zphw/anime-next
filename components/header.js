@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container, Flex, Box, useColorMode } from "theme-ui";
-import Logo from "./icons/logo";
-import ThemeSwitch from "./icons/theme-switch";
+import Logo from "./figures/logo";
+import ThemeSwitch from "./figures/theme-switch";
 
 const modes = [`light`, `dark`]
 

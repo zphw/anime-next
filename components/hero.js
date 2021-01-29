@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Flex, Styled } from "theme-ui";
 // import { Circle, Donut } from "./shapes";
-// import CircleGrid from "./icons/circle-grid";
-import Curved from "./icons/curved";
+// import CircleGrid from "./figures/circle-grid";
+import Curved from "./figures/curved";
 // import { down, up } from "../styles/animations";
 import Table from "./table";
 

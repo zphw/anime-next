@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import {Box, Container, jsx} from "theme-ui";
-import Curved from "./icons/curved";
+import Curved from "./figures/curved";
 import Table from "./table";
 
 const Main = () => {
