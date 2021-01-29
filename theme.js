@@ -43,7 +43,7 @@ export default merge(tailwind, {
         modes: {
             dark: {
                 primary: tailwind.colors.indigo[5],
-                tableShadow: `rgba(237, 242, 247, .6)`,
+                tableShadow: tailwind.colors.gray[1],
                 shadow: tailwind.colors.indigo[8],
                 background: tailwind.colors.gray[9],
                 backgroundThemes: `#252d38`,
@@ -151,7 +151,7 @@ export default merge(tailwind, {
     },
     boxes: {
         table: {
-            boxShadow: (t) => `0 1px 3px 0 ${t.colors.tableShadow}, 0 1px 2px 0 ${t.colors.tableShadow}`,
+            boxShadow: (t) => `0 0 3px 0 ${t.colors.tableShadow}, 0 0 2px 0 ${t.colors.tableShadow}`,
         }
     },
     buttons: {

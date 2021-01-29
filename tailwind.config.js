@@ -18,19 +18,6 @@ module.exports = {
     },
     theme: {
         extend: {
-            maxWidth: {
-                "100-px": "100px",
-                "120-px": "120px",
-                "150-px": "150px",
-                "180-px": "180px",
-                "200-px": "200px",
-                "210-px": "210px",
-                "580-px": "580px",
-            },
-            minWidth: {
-                "140-px": "140px",
-                "48": "12rem",
-            },
             backgroundSize: {
                 full: "100%",
             },
