@@ -1,12 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Flex, Box} from "theme-ui";
+import { jsx } from "theme-ui";
 
 export default function BackToTop() {
 
     return (
-        <button className="cd-top text-replace js-cd-top"
-        sx={{
+        <button
+            sx={{
             position: 'fixed',
             bottom: '30px',
             right: '30px',
