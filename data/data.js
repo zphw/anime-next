@@ -39,6 +39,7 @@ export const Data = [
     {name:"Mind Game", name_zh:"心灵游戏", score:8, date:'2020-12-22'},
     {name:"Re:ゼロから始める異世界生活", name_zh:"Re：从零开始的异世界生活", score:8, date:'2018-02'},
     {name:"Angel Beats!", name_zh:"Angel Beats!", score:8, date:'2018'},
+    {name:"サイダーのように言葉が湧き上がる", name_zh:"言语如苏打般涌现", score:8, date:'2021-07-29'},
     {name:"サマーウォーズ", name_zh:"夏日大作战", score:8, date:'2020-06-25'},
     {name:"となりのトトロ", name_zh:"龙猫", score:8, date:'2019-09-15'},
     {name:"言の葉の庭", name_zh:"言叶之庭", score:8, date:'2019-03-23'},
