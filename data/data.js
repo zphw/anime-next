@@ -8,7 +8,7 @@ export const Data = [
     {name:"氷菓", name_zh:"冰菓", score:9, date:'2017'},
     {name:"夜は短し歩けよ乙女", name_zh:"春宵苦短，少女前进吧", score:9, date:'2019-02-15'},
     {name:"四畳半神話大系", name_zh:"四叠半神话大系", score:9, date:'2019-02-17'},
-    {name:"パプリカ", name_zh:"红辣椒", score:9, date:'2021-01-10'},
+    {name:"パプリカ", name_zh:"红辣椒", score:9, date:'2022-01-10'},
     {name:"リズと青い鳥", name_zh:"莉兹与青鸟", score:9, date:'2019-01-08'},
     {name:"ユリ熊嵐", name_zh:"百合熊风暴", score:9, date:'2019-10-21'},
     {name:"千と千尋の神隠し", name_zh:"千与千寻", score:9, date:'2019-06-15'},
