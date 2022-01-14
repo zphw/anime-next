@@ -27,6 +27,7 @@ export const Data = [
     {name:"ノーゲーム・ノーライフ ゼロ", name_zh:"NO GAME NO LIFE ZERO", score:8, date:'2018-04-21'},
     {name:"恋は雨上がりのように", name_zh:"恋如雨止", score:8, date:'2019-03-01'},
     {name:"リトルウィッチアカデミア", name_zh:"小魔女学园", score:8, date:'2018-11-20'},
+    {name:"Encanto", name_zh:"魔法满屋", score:8, date:'2022-01-14'},
     {name:"日常", name_zh:"日常", score:8, date:'2019-10-25'},
     {name:"ヴァイオレット・エヴァーガーデン", name_zh:"紫罗兰永恒花园", score:8, date:'2018-07-18'},
     {name:"宇宙よりも遠い場所", name_zh:"比宇宙更远的地方", score:8, date:'2018-09-16'},
