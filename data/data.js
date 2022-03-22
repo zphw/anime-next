@@ -48,8 +48,9 @@ export const Data = [
     {name:"となりのトトロ", name_zh:"龙猫", score:8, date:'2019-09-15'},
     {name:"言の葉の庭", name_zh:"言叶之庭", score:8, date:'2019-03-23'},
     {name:"ラブライブ! School idol project 第2期", name_zh:"Love Live! 第二季", score:8, date:'2020-05-02'},
-    {name:"劇場版 魔法少女まどか☆マギカ [新編] 叛逆の物語", name_zh:"剧场版 魔法少女小圆 剧场版 [新篇] 叛逆的物语", score:8, date:'2020-03-21'},
-
+    
+    {name:"Onward", name_zh:"½的魔法", score:7, date:'2022-03-22'},
+    {name:"劇場版 魔法少女まどか☆マギカ [新編] 叛逆の物語", name_zh:"剧场版 魔法少女小圆 剧场版 [新篇] 叛逆的物语", score:7, date:'2020-03-21'},
     {name:"バッカーノ！", name_zh:"永生之酒", score:7, date:'2019-12-09'},
     {name:"キルラキル", name_zh:"斩服少女", score:7, date:'2019-04-16'},
     {name:"Mind Game", name_zh:"心灵游戏", score:7, date:'2020-12-22'},
