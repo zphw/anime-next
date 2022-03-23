@@ -32,8 +32,8 @@ export default function Header() {
                             sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 3 }}
                         />
                         <Flex sx={{ flexDirection: `column` }}>
-                            <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}>Anime List</Box>
-                            <Box sx={{ color: `dark` }}>of zph</Box>
+                            <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}>Animation Watch List</Box>
+                            <Box sx={{ color: `dark` }}>zph</Box>
                         </Flex>
                     </Flex>
                     <Flex sx={{ mt: [4, 0], alignItems: `center` }}>

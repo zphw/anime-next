@@ -7,7 +7,6 @@ export const Data = [
     {name:"夜は短し歩けよ乙女", name_zh:"春宵苦短，少女前进吧", score:9, date:'2019-02-15'},
     {name:"四畳半神話大系", name_zh:"四叠半神话大系", score:9, date:'2019-02-17'},
     {name:"氷菓", name_zh:"冰菓", score:9, date:'2017'},
-    {name:"パプリカ", name_zh:"红辣椒", score:9, date:'2022-01-10'},
     {name:"リズと青い鳥", name_zh:"莉兹与青鸟", score:9, date:'2019-01-08'},
     {name:"ユリ熊嵐", name_zh:"百合熊风暴", score:9, date:'2019-10-21'},
     {name:"DEVILMAN crybaby", name_zh:"恶魔人 crybaby", score:9, date:'2020-03-15'},
@@ -15,6 +14,7 @@ export const Data = [
     {name:"Coco", name_zh:"寻梦环游记", score:9, date:'2020-07-20'},
     {name:"進撃の巨人", name_zh:"进击的巨人", score:9, date:'2019-11-27'},
     {name:"響け！ユーフォニアム2", name_zh:"吹响！悠风号 第二季", score:9, date:'2019-02-04'},
+    {name:"パプリカ", name_zh:"红辣椒", score:9, date:'2022-01-10'},
 
     {name:"千と千尋の神隠し", name_zh:"千与千寻", score:8, date:'2019-06-15'},
     {name:"Tangled", name_zh:"魔发奇缘", score:8, date:'2022-03-17'},
