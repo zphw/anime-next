@@ -15,6 +15,7 @@ export const Data = [
     {name:"進撃の巨人", name_zh:"进击的巨人", score:9, date:'2019-11-27'},
     {name:"響け！ユーフォニアム2", name_zh:"吹响！悠风号 第二季", score:9, date:'2019-02-04'},
     {name:"パプリカ", name_zh:"红辣椒", score:9, date:'2022-01-10'},
+    {name:"Ratatouille", name_zh:"料理鼠王", score:9, date:'2022-03-26'},
 
     {name:"千と千尋の神隠し", name_zh:"千与千寻", score:8, date:'2019-06-15'},
     {name:"Tangled", name_zh:"魔发奇缘", score:8, date:'2022-03-17'},
