@@ -25,6 +25,7 @@ export const Data = [
     {name:"進撃の巨人 Season 3", name_zh:"进击的巨人 第三季", score:8, date:'2019-12-04'},
     {name:"進撃の巨人 Season 2", name_zh:"进击的巨人 第二季", score:8, date:'2019-12-02'},
     {name:"さよならの朝に約束の花をかざろう", name_zh:"朝花夕誓——于离别之朝束起约定之花", score:8, date:'2019-02-23'},
+    {name:"Inside Out", name_zh:"头脑特工队", score:8, date:'2022-03-28'},
     {name:"響け！ユーフォニアム", name_zh:"吹响！悠风号", score:8, date:'2018-11-06'},
     {name:"Soul", name_zh:"心灵奇旅", score:8, date:'2022-01-16'},
     {name:"ノーゲーム・ノーライフ ゼロ", name_zh:"NO GAME NO LIFE ZERO", score:8, date:'2018-04-21'},
