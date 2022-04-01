@@ -47,6 +47,7 @@ export const Data = [
     {name:"Re:ゼロから始める異世界生活", name_zh:"Re：从零开始的异世界生活", score:8, date:'2018-02'},
     {name:"Angel Beats!", name_zh:"Angel Beats!", score:8, date:'2018'},
     {name:"サマーウォーズ", name_zh:"夏日大作战", score:8, date:'2020-06-25'},
+    {name:"The Nightmare Before Christmas", name_zh:"圣诞夜惊魂", score:8, date:'2022-04-01'},
     {name:"となりのトトロ", name_zh:"龙猫", score:8, date:'2019-09-15'},
     {name:"言の葉の庭", name_zh:"言叶之庭", score:8, date:'2019-03-23'},
     {name:"ラブライブ! School idol project 第2期", name_zh:"Love Live! 第二季", score:8, date:'2020-05-02'},
