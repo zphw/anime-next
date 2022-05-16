@@ -5,8 +5,8 @@ export const Data = [
     {name:"夜は短し歩けよ乙女", name_zh:"春宵苦短，少女前进吧", score:10, date:'2019-02-15'},
     {name:"鋼の錬金術師 FULLMETAL ALCHEMIST", name_zh:"钢之炼金术师 FULLMETAL ALCHEMIST", score:10, date:'2020-12-10'},
 
-    {name:"四畳半神話大系", name_zh:"四叠半神话大系", score:9, date:'2019-02-17'},
     {name:"氷菓", name_zh:"冰菓", score:9, date:'2017'},
+    {name:"四畳半神話大系", name_zh:"四叠半神话大系", score:9, date:'2019-02-17'},
     {name:"リズと青い鳥", name_zh:"莉兹与青鸟", score:9, date:'2019-01-08'},
     {name:"ユリ熊嵐", name_zh:"百合熊风暴", score:9, date:'2019-10-21'},
     {name:"DEVILMAN crybaby", name_zh:"恶魔人 crybaby", score:9, date:'2020-03-15'},
@@ -49,6 +49,7 @@ export const Data = [
     {name:"サマーウォーズ", name_zh:"夏日大作战", score:8, date:'2020-06-25'},
     {name:"The Nightmare Before Christmas", name_zh:"圣诞夜惊魂", score:8, date:'2022-04-01'},
     {name:"となりのトトロ", name_zh:"龙猫", score:8, date:'2019-09-15'},
+    {name:"魔女の宅急便", name_zh:"魔女宅急便", score:8, date:'2022-05-16'},
     {name:"言の葉の庭", name_zh:"言叶之庭", score:8, date:'2019-03-23'},
     {name:"ラブライブ! School idol project 第2期", name_zh:"Love Live! 第二季", score:8, date:'2020-05-02'},
     
