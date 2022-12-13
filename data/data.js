@@ -70,6 +70,7 @@ export const Data = [
     {name:"Onward", name_zh:"½的魔法", score:7, date:'2022-03-22'},
     {name:"傷物語I 鉄血篇", name_zh:"伤物语I 铁血篇", score:7, date:'2019-02-22'},
     {name:"きみと、波にのれたら", name_zh:"若能与你共乘海浪之上", score:7, date:'2020-08-09'},
+    {name:"よふかしのうた", name_zh:"彻夜之歌", score:7, date:'2022-12-13'},
     {name:"サイダーのように言葉が湧き上がる", name_zh:"言语如苏打般涌现", score:7, date:'2021-07-29'},
     {name:"このはな綺譚", name_zh:"此花亭奇谭", score:7, date:'2018'},
     {name:"Luca", name_zh:"夏日友晴天", score:7, date:'2022-03-20'},
