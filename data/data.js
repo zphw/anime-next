@@ -133,6 +133,7 @@ export const Data = [
     {name:"ブレンド・S", name_zh:"调教咖啡厅", score:6, date:'2018'},
     {name:"やはり俺の青春ラブコメはまちがっている", name_zh:"我的青春恋爱物语果然有问题", score:6, date:'2018'},
     {name:"やはり俺の青春ラブコメはまちがっている。続", name_zh:"我的青春恋爱物语果然有问题 续", score:6, date:'2018'},
+    {name:"Cyberpunk: Edgerunners", name_zh:"赛博朋克：边缘行者", score:6, date:'2022-12-16'},
 
     {name:"citrus", name_zh:"citrus～柑橘味香气～", score:5, date:'2018-09-17'},
     {name:"たくのみ。", name_zh:"宅饮。", score:5, date:'2018-10'},
