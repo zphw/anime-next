@@ -96,6 +96,7 @@ export const Data = [
     {name:"ゾンビランドサガ", name_zh:"佐贺偶像是传奇", score:7, date:'2019-02-11'},
     {name:"リトルウィッチアカデミア 魔法仕掛けのパレード", name_zh:"小魔女学园 魔法游行", score:7, date:'2019-11-14'},
     {name:"天気の子", name_zh:"天气之子", score:7, date:'2020-08-14'},
+    {name:"Sonny Boy -サニーボーイ-", name_zh:"漂流少年", score:7, date:'2023-11-15'},
     {name:"N・H・Kにようこそ!", name_zh:"欢迎加入NHK！", score:7, date:'2019-04-09'},
     {name:"からかい上手の高木さん", name_zh:"擅长捉弄的高木同学", score:7, date:'2018-06'},
     {name:"恋愛ラボ", name_zh:"恋爱研究所", score:7, date:'2019-03-05'},
