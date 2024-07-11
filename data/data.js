@@ -133,6 +133,7 @@ export const Data = [
     {name:"だがしかし", name_zh:"粗点心战争", score:6, date:'2018-10-13'},
     {name:"僕のヒーローアカデミア", name_zh:"我的英雄学院", score:6, date:'2019-08-19'},
     {name:"マナリアフレンズ", name_zh:"玛娜利亚魔法学院", score:6, date:'2019-03-25'},
+    {name:"PSYCHO-PASS サイコパス", name_zh:"心理测量者", score:6, date:'2024-06-26'},
     {name:"アホガール", name_zh:"笨女孩", score:6, date:'2018'},
     {name:"ブレンド・S", name_zh:"调教咖啡厅", score:6, date:'2018'},
     {name:"やはり俺の青春ラブコメはまちがっている", name_zh:"我的青春恋爱物语果然有问题", score:6, date:'2018'},
